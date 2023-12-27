@@ -52,6 +52,10 @@
 }
 /* 1. Theme default css */
 body {
+  zoom: 85%; /* For IE 9-11 */
+  
+}
+body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 28px;
